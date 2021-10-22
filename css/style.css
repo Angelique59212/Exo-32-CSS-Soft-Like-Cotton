@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap')
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(253,248,242);
+    margin: 0;
+}
+
+#haut {
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#logo1 , #logo2 {
+    display: inline-block;
+    margin-top: 19px;
+}
+
+#centrer {
+    text-align: center;
+    width: 100%;
+}
+
+#logo2 {
+    margin-left: 25%;
+}
+
+footer {
+    background-color: rgb(104,104,104);
+    color: rgb(179,179,179);
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    padding: 2px;
+    height: 107px;
+}
+
+#white {
+    color: white;
+}
+
+#gray {
+    color: rgb(179,179,179);
+}
+
+#foot {
+    text-align: right;
+    animation-duration: 3s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+@keyframes glissement {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
